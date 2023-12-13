@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./picture/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 300px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 14% 0%;
+}
+
+.topnav input[type=text] {
+  border: 1px solid white;
+}
+.color {
+    color:white;
+}
+
+#h1_1 {
+    position:absolute;
+    top:28%;
+    left:45.5%;
+}
+#h4_1 {
+    position:absolute;
+    top:38%;
+    left:43.5%;
+}
+#h4_2 {
+    position:absolute;
+    top:48%;
+    left:43.5%;
+}
+#h4_3 {
+    position:absolute;
+    top:58%;
+    left:43.5%;
+}
+
+#Display_name {
+    position:absolute;
+    top:45%;
+    left:43.5%;
+}
+#Email {
+    position:absolute;
+    top:55%;
+    left:43.5%;
+}
+#Password {
+    position:absolute;
+    top:65%;
+    left:43.5%;
+}
